@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TextUtils</title>
+</head>
+<body> 
+  <!--This is Template of 
+-<b>{{username}} discovered from {{place}}</b>-->
+
+<h1>Welcome to text analyzer. Enter your text below... </h1>
+<form action='/analyze' method='get'>
+  <textarea name='text' style='width: 1211px; height: 241px;'></textarea><br>
+  <input type="checkbox" name="removepunc">Remove Punctuation<br>
+  <input type="checkbox" name="fullcaps">UPPERCASE<br>
+  <input type="checkbox" name="esr">Extras space remover<br>
+  <input type="checkbox" name="charc">Count Characters<br>
+  <button type='submit'>Analyze</button>
+</form>
+
+</body>
+</html>
